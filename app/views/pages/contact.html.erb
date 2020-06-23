@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>Omega-App</title>
+
+<!-- Normalize.css -->
+
+<!-- <link rel="stylesheet" type=text/css href="preshy.css"> -->
+
+<style>
+
+Body {
+    background: blue;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    background-color: orange;
+    text-color: white;
+
+}
+
+h1 {
+    color: white;
+    background-color: cornflowerblue;
+}
+
+p {
+    color: pink;
+    background-color: purple;
+    margin: 80px;
+    padding: 80px;
+    border-style: Dashed;
+    border-width: 3px;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-color: red;
+}
+
+
+
+</style>
+
+</head>
+
+<body>
+
+<%= link_to 'About', about_path %>
+<%= link_to 'Home', root_path %>
+<%= link_to 'Faq', faq_path %>
+
+    <header id="bottom">
+        <a href="#bottom">Down Below</a>
+    </header>
+
+
+<div id="top">
+
+<h1>This is our Contact section</h1>
+
+<p class="intro">Just Got Started</p>
+
+<p class="intro">Again, life is good</p>
+
+<p class="intro">Again, life is good</p>
+
+<p>Databases are used to organize and capture large amounts of data, typically by inputting, storing, retrieving and managing the information. This course will focus on relational databases, which are widely used to store data and SQL, the language used to query the database.
+
+</p>
+
+</div>
+
+
+<footer id="top">
+
+<%= link_to 'About', about_path %>
+<%= link_to 'Home', root_path %>
+<%= link_to 'Faq', faq_path %>
+
+    <a href="#top">Take Me Up</a>
+
+    copyright &copy 2020 Preshy Inc.
+
+</footer>
+
+</body>
+
+
+</html>
